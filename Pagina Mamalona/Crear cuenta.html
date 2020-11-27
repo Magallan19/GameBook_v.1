@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/167bb7a25e.js" crossorigin="anonymous"></script>
+    <title>Crear Cuenta</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container Ajuste3 p-2">
+        <h1 class="text-center font4 ">Gamerbook</h1>
+        <img src="img/1.2.png" class="mx-auto d-block rotacion Img " height="90px">
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                <div class="card Tamaño1 animate__bounceIn">
+                    <div class="card-header">
+                        <h1 class="text-center font">Crear Cuenta</h1>
+                    </div>
+                    <hr>
+                    <div class="card-body ">
+                        <form action="index.html" class="formulario" method="post" id="formulario">
+                            <div class="row m-2">
+                                <div class="col ">
+
+                                    <div class="formulario__grupo form-group " id="grupo__usuario">
+                                        <label class="formulario__label font " for="Usuario">Usuario</label>
+                                        <div class="formulario__grupo-input" id="">
+                                            <input type="text" class="form-control formulario2 formulario__input " name="usuario" id="usuario" autofocus>
+                                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                        </div>
+                                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="col ">
+
+                                    <div class="formulario__grupo form-group " id="grupo__correo">
+                                        <label class="formulario__label font" for=" Correo Electronico ">Correo Electronico</label>
+                                        <div class="formulario__grupo-input ">
+                                            <input type="email " class="form-control formulario2 formulario__input " id="correo" name="correo">
+                                            <i class="formulario__validacion-estado fas fa-times-circle "></i>
+                                        </div>
+                                        <p class="formulario__input-error ">El correo puede contener letras, numeros, puntos, guiones y guion bajo</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row m-2 ">
+                                <div class="col m-1 ">
+
+                                    <div class="formulario__grupo form-group" id="grupo__password">
+                                        <label class="formulario__label font" for="password"> Contraseña</label>
+                                        <div class="formulario__grupo-input">
+                                            <input type="password" name="password" class="formulario__input form-control formulario2" id="password">
+                                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                        </div>
+                                        <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 digitos</p>
+                                    </div>
+                                </div>
+
+                                <div class="col m-1 ">
+
+                                    <div class="formulario__grupo form-group" id="grupo__password2">
+                                        <label class="font formulario__label" for="password ">Confirmar Contraseña</label>
+                                        <div class="formulario__grupo-input">
+                                            <input type="password" class="form-control formulario2 formulario__inpu" name="password" id="password2">
+                                            <i class="formulario__validacion-estado fas fa-times-circle "></i>
+                                        </div>
+                                        <p class="formulario__input-error ">Ambas contraseñas deben ser iguales</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col ">
+                                <button class=" btn btn-primary btn-block " type="submit">Crear Cuenta</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="card-footer footer ">
+                        <a href="Inicia Sesion.html " class=" blockquote-footer ">Iniciar Sesion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" bg-dark text-center p-2 font ">
+        <div>
+            <h6 class="m-1 ">Equipo Mamalon</h6>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="Js/particles.min.js "></script>
+    <script src="Js/app.js "></script>
+    <script src="Js/Iniciar-Crear.js "></script>
+</body>
+
+
+</html>
